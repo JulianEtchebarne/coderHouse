@@ -1,0 +1,50 @@
+/*---HEADER---*/
+
+header{
+    width: 100%;
+    border-bottom: 3px solid;
+    display: flex;
+    background-color: $colorFooterHeader;
+    nav{
+        width: 70%;
+        height: 272px;
+        ul{
+            list-style: none;
+            font-size: 1.7rem;    
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            align-items: center;
+            height: 100%;
+            padding-left: 300px;
+            li{
+                transition: background-color 0.5s, transform 0.5s;
+                padding: 10px;
+                a{
+                    display: inline-block;
+                    width: 200px;
+                    height: 40px;
+                    line-height: 40px;
+                    font-size: 1.2rem;
+                    font-family: sans-serif;
+                    color: #333;
+                    border: 2px solid #333;
+                    letter-spacing: 2px;
+                    text-align: center;
+                    text-decoration: none;
+                    transition: background-color 0.5s, transform 0.5s;
+                }
+            }
+            li:hover{
+                background-color: #8080801c;
+                transform: scale(1.05,1.05);
+                a:hover{
+                    color: #333;
+                    background-color: #8080801c;
+                    transform: scale(1.05,1.05);
+
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,68 @@
+
+/*---IMPORTS---*/
+
+/*variables*/
+
+@import "variables/variables";
+
+/*partials*/
+
+@import "partials/productos";
+@import "partials/home";
+@import "partials/ubicacion";
+@import "partials/faq";
+@import "partials/contacto";
+
+/*otros*/
+
+@import "otros/footer";
+@import "otros/header";
+
+
+
+/*---MAIN---*/
+
+
+body{
+    width: 100%;
+    margin: 0;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    background-image: $colorFondo;
+    line-height: 1.5;
+}
+hr{
+    border: 0;
+    background-color: currentColor;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: unset;
+    color: #797A7E;
+}
+hr:not([size]){
+    height: 2px;
+}
+.centro{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    color: #212529;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 2rem;
+}
+.marginBot{
+    margin-bottom: 30px;
+}
+.logo{
+    width: 210px; height: 210px;
+    margin-left: 7px;
+    margin-top: 25px;
+}
+
+
+/* ANIMACAIONES */
+:root{ 
+    --animate-delay: 145ms;
+}

@@ -1,0 +1,76 @@
+/*---CONTACTO---*/
+
+#bodyContacto{
+    h3{
+        font-size: 1.8rem;
+        text-align: left;
+        font-family: 'Nunito', sans-serif;
+        color: #212529;
+    }
+    hr{
+        width: 18%;
+    }
+    button{
+        margin-top: 10px;
+        color: #000;
+        background-color: #fff;
+        border-color: #000;
+    }
+}
+section{
+    ul{
+        padding: 0px;
+        list-style: none;
+        li{
+            margin: 10px;
+        }
+    }
+    form{
+        width: 300px;
+        margin-right: 200px;
+        input{
+            margin: 15px;
+        }
+        select{
+            margin: 15px;
+        }
+    }
+}
+textarea{
+    margin-left: 15px;
+}
+.form-control{
+    width: 90%;
+}
+
+.icono__ContactoTelefono{
+    width: 20px; height: 20px;
+    margin-bottom: 3.5px;
+}
+.icono__ContactoMensaje{
+    width: 23px; height: 23px;
+}
+.icono__ContactoUbicacion{
+    width: 20px; height: 20px;
+    margin-bottom: 2px;
+    margin-right: 2px;
+}
+.paddingLeftForm{
+    padding-left: 10px;
+}
+.div__Form{
+    height: 600px; width: 550px;
+    padding-right: 50px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: 200px;
+    margin-bottom: 40px;
+}
+.div__Contacto{
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row-reverse;
+}
+#botonDerecha{
+    margin-right: auto;
+}

@@ -1,0 +1,33 @@
+/*---UBICACION---*/
+
+#bodyUbicacion{
+    h1{
+        font-size: 3rem;
+    }
+    hr{
+        width: 17.5%;
+    }
+    h2{
+        color:#7D5A50
+    }
+    .centro{
+        color: #212529;
+    }
+    main{
+        display: flex;
+        justify-content: space-around;
+        section{
+            table{
+                display: inline-block;
+                margin-right: 390px;
+                padding-right: 105px;
+                margin-top: 53px;
+                border-color: #333;
+            }
+        }
+    }
+    
+}
+tbody, td, tfoot, th, thead, tr{
+    border-width: unset;
+}

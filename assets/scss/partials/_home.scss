@@ -1,0 +1,68 @@
+/*---HOME---*/
+
+#bodyIndex{
+    h2{
+        padding-left: 40px;
+    }
+    h3{
+        font-weight: 400;
+    }
+    hr{
+        width: 30.5%;
+    }
+    .centro{
+        padding-left: 0px;
+    }
+    .elementosSlider{
+        display: flex;
+        justify-content: center;
+    }
+}
+h1{
+    font-family: 'Arimo', sans-serif;                              
+    color:#797A7E;
+    font-size: 2.5rem;
+}
+h2{
+    font-family: 'Arimo', sans-serif;
+    color:#797A7E;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color:#797A7E;
+}
+img{
+    width: 270px; height: 270px;
+}
+.imagenSlider{
+    width: 500px; height: 500px;
+}
+.boton--destacado{
+    @extend .boton;
+        background: #404040;
+        border-radius: 6px;
+        transition: all 0.3s;
+
+}
+.boton--destacado:hover{
+    background: unset;
+    color: #404040;
+    background-color: #b1b1b165;
+}
+.rowIndex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+.columnIndex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    margin: 30px;
+    padding-bottom: 40px;
+    border: 3px solid #797A7E;
+    background-color: #F7F2E7;
+}
