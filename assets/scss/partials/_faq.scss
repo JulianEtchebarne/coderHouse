@@ -2,11 +2,12 @@
 
 #bodyFaq{
     height: 100vh;
-    hr{
-        width: 10.5%;
-    }
     section{
         padding-left: 10px;
+        h3{
+            font-weight: 600;
+            color: #523c3c;
+        }
         span{
             font-size: 1.75rem;
             font-family: 'Montserrat', sans-serif;
@@ -16,5 +17,6 @@
     }
 }
 p{
-    color:#808080;
+    font-weight: 500;
+    color:#050505;
 }

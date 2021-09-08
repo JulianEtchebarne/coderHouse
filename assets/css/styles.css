@@ -1,47 +1,46 @@
 /*---IMPORTS---*/
-/*variables*/
+/*utilidades*/
 /*partials*/
 /*---PRODUCTOS---*/
 #bodyProductos {
   background-image: linear-gradient(#FFFFFF -10%, #E0ECE4); }
-  #bodyProductos section div {
-    display: block;
-    transition: background-color 0.5s;
-    width: 300px;
-    height: 300px; }
-    #bodyProductos section div div {
-      position: absolute;
+  #bodyProductos section {
+    padding-left: 55px; }
+    #bodyProductos section div {
       width: 300px;
       height: 300px;
-      margin-top: -300px; }
-    #bodyProductos section div span {
-      font-family: "Lato", sans-serif;
-      letter-spacing: 1px;
-      color: #F7F2E7;
-      display: none; }
-    #bodyProductos section div p {
-      font-weight: bold;
-      font-family: "Lato", sans-serif;
-      display: none;
-      color: #ffa600e1; }
-    #bodyProductos section div button {
-      font-family: "Lato", sans-serif;
-      display: none; }
-  #bodyProductos section div:hover {
-    background-color: #1e1e1e50; }
-    #bodyProductos section div:hover span {
       display: block;
-      font-size: 2.5rem;
-      padding-top: 30px; }
-    #bodyProductos section div:hover p {
-      display: block;
-      font-size: 2rem; }
-    #bodyProductos section div:hover button {
-      display: block;
-      margin-left: auto;
-      margin-right: auto; }
-  #bodyProductos hr {
-    width: 18.5%; }
+      transition: background-color 0.5s; }
+      #bodyProductos section div div {
+        width: 300px;
+        height: 300px;
+        margin-top: -300px; }
+      #bodyProductos section div span {
+        font-family: "Lato", sans-serif;
+        letter-spacing: 1px;
+        color: #F7F2E7;
+        display: none; }
+      #bodyProductos section div p {
+        font-family: "Lato", sans-serif;
+        font-weight: bold;
+        display: none;
+        color: #ffa600e1; }
+      #bodyProductos section div button {
+        font-family: "Lato", sans-serif;
+        display: none; }
+    #bodyProductos section div:hover {
+      background-color: #1e1e1e50; }
+      #bodyProductos section div:hover span {
+        display: block;
+        font-size: 2.5rem;
+        padding-top: 30px; }
+      #bodyProductos section div:hover p {
+        display: block;
+        font-size: 2rem; }
+      #bodyProductos section div:hover button {
+        display: block;
+        margin-left: auto;
+        margin-right: auto; }
   #bodyProductos footer {
     margin-top: 20px; }
 
@@ -83,9 +82,6 @@
 
 #bodyIndex h3 {
   font-weight: 400; }
-
-#bodyIndex hr {
-  width: 30.5%; }
 
 #bodyIndex .centro {
   padding-left: 0px; }
@@ -143,26 +139,23 @@ img {
   background-color: #F7F2E7; }
 
 /*---UBICACION---*/
-#bodyUbicacion h1 {
+#bodyUbicacion h1, #bodyUbicacion h2 {
   font-size: 3rem; }
 
-#bodyUbicacion hr {
-  width: 17.5%; }
-
-#bodyUbicacion h2 {
+#bodyUbicacion h3 {
   color: #7D5A50; }
 
 #bodyUbicacion .centro {
-  color: #212529; }
+  color: #212529;
+  font-size: 2rem; }
 
 #bodyUbicacion main {
   display: flex;
   justify-content: space-around; }
   #bodyUbicacion main section table {
     display: inline-block;
-    margin-right: 390px;
-    padding-right: 105px;
-    margin-top: 53px;
+    padding-right: 400px;
+    margin-top: 80px;
     border-color: #333; }
 
 tbody, td, tfoot, th, thead, tr {
@@ -171,10 +164,11 @@ tbody, td, tfoot, th, thead, tr {
 /*---FAQ---*/
 #bodyFaq {
   height: 100vh; }
-  #bodyFaq hr {
-    width: 10.5%; }
   #bodyFaq section {
     padding-left: 10px; }
+    #bodyFaq section h3 {
+      font-weight: 600;
+      color: #523c3c; }
     #bodyFaq section span {
       font-size: 1.75rem;
       font-family: 'Montserrat', sans-serif;
@@ -182,7 +176,8 @@ tbody, td, tfoot, th, thead, tr {
       color: #797A7E; }
 
 p {
-  color: #808080; }
+  font-weight: 500;
+  color: #050505; }
 
 /*---CONTACTO---*/
 #bodyContacto h3 {
@@ -190,9 +185,6 @@ p {
   text-align: left;
   font-family: 'Nunito', sans-serif;
   color: #212529; }
-
-#bodyContacto hr {
-  width: 18%; }
 
 #bodyContacto button {
   margin-top: 10px;
@@ -282,6 +274,9 @@ footer {
 .fontMontserrat {
   font-family: 'Montserrat', sans-serif; }
 
+.contactoFooter {
+  padding-left: 25px; }
+
 .instagram {
   padding-bottom: 14px;
   width: 70px;
@@ -324,11 +319,10 @@ header {
           text-decoration: none;
           transition: background-color 0.5s, transform 0.5s; }
       header nav ul li:hover {
-        background-color: #8080801c;
         transform: scale(1.05, 1.05); }
         header nav ul li:hover a:hover {
           color: #333;
-          background-color: #8080801c;
+          background-color: #4442421c;
           transform: scale(1.05, 1.05); }
 
 /*---MAIN---*/
