@@ -1,17 +1,15 @@
 /*---UBICACION---*/
 
 #bodyUbicacion{
-    h1{
+    h1, h2{
         font-size: 3rem;
     }
-    hr{
-        width: 17.5%;
-    }
-    h2{
+    h3{
         color:#7D5A50
     }
     .centro{
         color: #212529;
+        font-size: 2rem;
     }
     main{
         display: flex;
@@ -19,9 +17,8 @@
         section{
             table{
                 display: inline-block;
-                margin-right: 390px;
-                padding-right: 105px;
-                margin-top: 53px;
+                padding-right: 400px;
+                margin-top: 80px;
                 border-color: #333;
             }
         }
